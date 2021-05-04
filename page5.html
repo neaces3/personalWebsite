@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .header {
+          padding: 30px;
+          text-align: center;
+          background:rgb(240, 128, 171);
+          color:white
+        }
+        .topnav {
+          overflow: hidden;
+          background-color: whitesmoke;
+        }
+        
+        /* Style the topnav links */
+        .topnav a {
+          float: left;
+          display: block;
+          color: rgb(240, 128, 171);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        /* Change color on hover */
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            background-color: rgb(240, 128, 171);
+            color:white;
+            text-align: center;
+            width: 50%;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        /* Footer */
+        .footer {
+          padding: 20px;
+          text-align: center;
+          background: white;
+          color:rgb(240, 128, 171);
+          margin-top: 20px;
+        }
+        
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+          .leftcolumn, .rightcolumn {   
+            width: 100%;
+            padding: 0;
+          }
+        }
+        
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+          .topnav a {
+            float: none;
+            width: 100%;
+          }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1><i>Ruger and Chloe!</i></h1>
+    </div>
+
+    <div class="topnav">
+        <a href="personalWebsite.html">Homepage</a>
+        <a href="page3.html">Hobbies</a>
+        <a href="page4.html" >My Goals</a>
+        <a href="page2.html" >Education</a>
+    </div>
+
+    <div class="column">
+        <h3>Chloe!</h3><br>
+        <img src="chloe.jpg" alt="golf photo" style="width:200px;height:200px;">
+        <img src="chloe2.jpg" alt="golf photo" style="width:200px;height:200px;">
+        <img src="chloe3.jpg" alt="golf photo" style="width:200px;height:200px;">
+        <img src="chloe4.jpg" alt="golf photo" style="width:200px;height:200px;">
+    </div>
+
+    <div class="column">
+        <h3>Ruger!</h3>
+        <img src="ruger.jpg" alt="golf photo" style="width:200px;height:200px;">
+        <img src="ruger1.jpg" alt="golf photo" style="width:200px;height:200px;">
+        <img src="ruger2.jpg" alt="golf photo" style="width:200px;height:200px;">
+        <img src="ruger3.jpg" alt="golf photo" style="width:200px;height:200px;">
+    </div>
+
+    <div class="footer">
+        <h3>These are my two dogs. They are sheperd mixes!</h3>
+    </div>
+</body>
+</html>

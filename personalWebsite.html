@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial;
+          padding: 10px;
+          background: #f1f1f1;
+        }
+     
+        
+        /* Header */
+        .header {
+          padding: 30px;
+          text-align: center;
+          background:lightcoral;
+          opacity: 0.6;
+          color:white;
+        }
+        
+        .header h1 {
+          font-size: 50px;
+        }
+       
+        /* Style the top navigation bar */
+        .topnav {
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        /* Style the topnav links */
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        /* Change color on hover */
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {   
+          float: left;
+          width: 75%;
+        }
+        
+        /* Right column */
+        .rightcolumn {
+          float: left;
+          width: 25%;
+          background-color: white;
+          color:white;
+          padding-left: 20px;
+        }
+        
+        /* Fake image */
+        .photo {
+          width: 100%;
+          padding: 20px;
+          opacity: 1;
+        }
+        
+        
+        .card {
+          background-color: lightcoral;
+          
+          color:white;
+          padding: 20px;
+          margin-top: 20px;
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Footer */
+        .footer {
+          padding: 20px;
+          text-align: center;
+          background: #ddd;
+          margin-top: 20px;
+        }
+        
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+          .leftcolumn, .rightcolumn {   
+            width: 100%;
+            padding: 0;
+          }
+        }
+        
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+          .topnav a {
+            float: none;
+            width: 100%;
+          }
+        }
+      
+    </style>
+    </head>
+    <body>
+        
+        <div class="header">
+          <h1><i>Sarah Neace</i></h1>
+          <p><i> my personal website</i></p>
+        </div>
+        
+        <div class="topnav">
+          <a href="page2.html">Education</a>
+          <a href="page3.html">Hobbies</a>
+          <a href="page4.html" style="float:right">My Goals</a>
+          <a href="page5.html" style="float:right">My Pets</a>
+        </div>
+        
+        <div class="row">
+          <div class="leftcolumn">
+            <div class="card">
+              <h2>About me</h2>
+              <h5>If you would like to learn more about me then keep scrolling!</h5>
+              <div class="photo" style="height:300px;">
+              <img src="photo1.jpg" alt="me" style="width:350px;height:350px;opacity: 1;">
+              <img src="photo2.jpg" alt="me" style="width:350px;height:350px;opacity: 1;"><br>
+              </div>
+              <p>Hello! My name is Sarah Neace and I am 24 years old.</p>
+              <p>I am currently a student at Northern Kentucky University. My major is Computer Information Technology with a minor in Computer Science. One day I hope that i get to use my web development skills to create websites for a company I love working for.</p>
+            </div>
+            <div class="card">
+              <h2>Things to know about me!</h2><br>
+              <p>I am a hard working and very organized person. Everything I own has a place and is always organized. I am extremely dedicated to my work and school. <br>My drive to be the best is not just in athletics but also in academics.</p>
+            </div>
+          </div>
+          <div class="rightcolumn">
+            <div class="card">
+              <h2><u>Contact Info</u></h2>
+              <p> <br> (859)912-0619 <br><br>neacesarah@yahoo.com </p>
+            </div>
+            <div class="card">
+              <h2>Social Media</h2><br>
+              <a href="https://www.facebook.com/sarah.neace.31/">Facebook</a><br>
+              <a href="https://www.linkedin.com/in/sarah-neace-9b4406190/">Linkedin</a>
+            </div>
+            <div class="card">
+              <img src="images.jpg" style="width:350px;height:250px;">
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer">
+          <h2>Thanks for visiting my website!</h2>
+        </div>
+        
+        </body>
+</html>
+
+

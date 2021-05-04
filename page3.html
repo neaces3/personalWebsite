@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .header {
+          padding: 30px;
+          text-align: center;
+          background:powderblue;
+          color:black;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        /* Style the topnav links */
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          justify-content: center;
+        }
+        
+        /* Change color on hover */
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+    
+            background-color: powderblue;
+            width: 25%;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+        @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1><i>My Hobbies</i></h1>
+    </div>
+
+    <div class="topnav">
+        <a href="personalWebsite.html">Home Page</a>
+          <a href="page2.html">Education</a>
+          <a href="page4.html" >My Goals</a>
+          <a href="page5.html" >My Pets</a>
+    </div>
+
+    <div class="column">
+        <h3><u>Hiking </u></h3><br>
+        <p><small>On my days off I enjoy going hiking with my two dogs, Ruger and Chloe. We love to go hiking though the woods to waterfalls or to creeks. It is so much fun watching them play in the water and sniff everything</small></p>
+        <br>
+        <video width="200" height="200" controls>
+            <source src="video.MP4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+        <br><br>
+        <img src="photo12.JPG" alt="golf photo" style="width:200px;height:200px;">
+    </div>
+
+    <div class="column">
+        <h3><u>Golf</u></h3><br>
+        <p><small>I still love to play golf and try to get out and play as much as possible during the summer.</small></p>
+        <br>
+        <img src="photo10.JPG" alt="golf photo" style="width:200px;height:200px;">
+        <img src="photo14.JPG" alt="golf photo" style="width:200px;height:200px;">
+    </div>
+
+    <div class="column">
+        <h3><u>Harry Potter</u></h3><br>
+        <p> I am a Harry Potter Fanatic! I have read all the books and continue to watch the movies over and over again. I probably watch them way too much.</p>
+        <br>
+        <img src="hp.jpg" alt="golf photo" style="width:200px;height:200px;">
+        <img src="harry-potter.jpg" alt="golf photo" style="width:200px;height:200px;">
+    </div>
+
+    <div class="column">
+        <h3><u>Boating</u></h3>
+        <p>My family has a lake house on Lake Cumberland in Kentucky. We always go down almost every weekend during the summer and spend the day out on the water as a family. It is so much fun!</p>
+        <br>
+        <img src="photo11.JPG" alt="golf photo" style="width:200px;height:200px;">
+        <img src="photo13.JPG" alt="golf photo" style="width:200px;height:200px;">
+    </div>
+
+    <div class="footer">
+        <h3>These are just a few of my hobbies!</h3>
+    </div>
+
+ 
+</body>
+</html>
